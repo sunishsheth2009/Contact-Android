@@ -1,0 +1,22 @@
+<!--Group members : Sunish S Sheth Net ID. : sss140830 and Kanav Kaul Net ID. : kxk140730 Start date: September 29th, 2014
+Purpose : Class Assignment - CS 6301.022 Summary: The assignment is on
+Contact Manager. This program basically adds a new contact, deletes an
+existing contact and lastly updates the contact.
+This is used to create an action bar AddUpdateContactActivity. Action bar creates a done item menu.
+-->
+
+<!-- 
+This menu is created by Sunish Sheth (sss140830)
+ -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	  xmlns:yourapp="http://schemas.android.com/apk/res-auto"
+	   >
+
+     <item android:id="@+id/done_menu"
+         android:icon="@drawable/check"
+	          android:title="@string/done_menu"
+        	  yourapp:showAsAction="ifRoom|withText"
+	          />
+
+</menu>

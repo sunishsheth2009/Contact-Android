@@ -1,0 +1,109 @@
+<!--Group members : Sunish S Sheth Net ID. : sss140830 and Kanav Kaul Net ID. : kxk140730 Start date: September 29th, 2014
+Purpose : Class Assignment - CS 6301.022 Summary: The assignment is on
+Contact Manager. This program basically adds a new contact, deletes an
+existing contact and lastly updates the contact.
+The layout for DisplayActivity is created here.
+Each entry is given an id which is used to reference the field in the Display.java file.
+RelativeLayout is used to keep the feilds relative to the screen and inside relative LinearLayout is used for linear display of each field i.e. one below the other. 
+-->
+
+<!-- 
+This layout is created by Kanav Kaul (kxk140730)
+ -->
+ 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.contacts.MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/fname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fname" 
+            android:textStyle="bold"/>
+        <View 
+		   android:layout_width="fill_parent"
+		   android:layout_height="1dp"       
+		   android:background="#000000" />
+
+        <TextView
+            android:id="@+id/fnameview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/TextView" 
+            android:textStyle="italic"
+            android:textColor="@color/grey"/>
+
+        <TextView
+            android:id="@+id/lname1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lname" 
+            android:textStyle="bold"/>
+        <View 
+		   android:layout_width="fill_parent"
+		   android:layout_height="1dp"       
+		   android:background="#000000" />
+
+        <TextView
+            android:id="@+id/lnameview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/TextView" 
+            android:textStyle="italic"
+            android:textColor="@color/grey"/>
+
+        <TextView
+            android:id="@+id/phone1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/phone" 
+            android:textStyle="bold"/>
+        <View 
+		   android:layout_width="fill_parent"
+		   android:layout_height="1dp"       
+		   android:background="#000000" />
+
+        <TextView
+            android:id="@+id/phoneview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/TextView" 
+            android:textStyle="italic"
+            android:textColor="@color/grey"/>
+
+        <TextView
+            android:id="@+id/email1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/email" 
+            android:textStyle="bold"/>
+        <View 
+		   android:layout_width="fill_parent"
+		   android:layout_height="1dp"       
+		   android:background="#000000" />
+
+        <TextView
+            android:id="@+id/emailview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/TextView" 
+            android:textStyle="italic"
+            android:textColor="@color/grey"/>
+        	
+    </LinearLayout>
+
+</RelativeLayout>

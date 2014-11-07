@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Contact Manager</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_menu">Add</string>
+    <string name="delete_menu">Delete</string>
+    <string name="edit_menu">Edit</string>
+    <string name="title_activity_add_update_contact">Edit Contacts</string>
+    <string name="fname">First Name</string>
+    <string name="lname">Last Name</string>
+    <string name="phone">Phone</string>
+    <string name="email">E-Mail</string>
+    <string name="fnamedis"><u>First Name</u></string>
+    <string name="lnamedis"><u>Last Name</u></string>
+    <string name="phonedis"><u>Phone</u></string>
+    <string name="emaildis"><u>E-Mail</u></string>
+    <string name="fnamehint">Tom</string>
+    <string name="lnamehint">Hanks</string>
+    <string name="phonehint">608&#8211;285&#8211;2629</string>
+    <string name="emailhint">abc@abc.com</string>
+    <string name="done_menu">Done</string>
+
+    <dimen name="actionbar_textsize">16dip</dimen>
+	<string name="edit">Edit Contact</string>
+    <string name="title_activity_display">Contact Details</string>
+    <string name="TextView">TextView</string>
+    <string name="delete">Delete</string>
+
+</resources>

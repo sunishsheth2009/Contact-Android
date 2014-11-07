@@ -1,0 +1,25 @@
+<!--Group members : Sunish S Sheth Net ID. : sss140830 and Kanav Kaul Net ID. : kxk140730 Start date: September 29th, 2014
+Purpose : Class Assignment - CS 6301.022 Summary: The assignment is on
+Contact Manager. This program basically adds a new contact, deletes an
+existing contact and lastly updates the contact.
+This is used to create an action bar DisplayActivity. Action bar creates an edit item menu and also a delete menu item.
+-->
+
+<!-- 
+This layout is created by Sunish Sheth (sss140830)
+ -->
+ 
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+		    xmlns:yourapp="http://schemas.android.com/apk/res-auto">
+
+	    <item android:id="@+id/edit_menu"
+	          android:icon="@drawable/edit"
+	          android:title="@string/edit_menu"
+        	  yourapp:showAsAction="ifRoom|withText"
+	          />
+	    <item android:id="@+id/delete_menu"
+	          android:title="@string/delete"
+        	  yourapp:showAsAction="never"
+	          />
+
+</menu>

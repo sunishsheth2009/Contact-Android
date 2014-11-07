@@ -1,0 +1,92 @@
+<!--Group members : Sunish S Sheth Net ID. : sss140830 and Kanav Kaul Net ID. : kxk140730 Start date: September 29th, 2014
+Purpose : Class Assignment - CS 6301.022 Summary: The assignment is on
+Contact Manager. This program basically adds a new contact, deletes an
+existing contact and lastly updates the contact.
+The layout for AddUpdateContactActivity is created here.
+Each entry is given an id which is used to reference the field in the AddUpdateContactActivity.java file.
+RelativeLayout is used to keep the feilds relative to the screen and inside relative LinearLayout is used for linear display of each field i.e. one below the other. 
+-->
+
+<!-- 
+This layout is created by Kanav Kaul (kxk140730)
+ -->
+ 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.contact.AddUpdateContactActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/fname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fname" />
+
+        <EditText
+            android:id="@+id/fnametext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/fnamehint" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/lname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lname" />
+
+        <EditText
+            android:id="@+id/lnametext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10" 
+            android:inputType="textPersonName"
+            android:hint="@string/lnamehint" />
+
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/phone" />
+
+        <EditText
+            android:id="@+id/phonetext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="phone" 
+            android:hint="@string/phonehint"/>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/email" />
+
+        <EditText
+            android:id="@+id/emailtext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress" 
+			android:hint="@string/emailhint" />
+        	
+    </LinearLayout>
+
+</RelativeLayout>
